@@ -1,4 +1,6 @@
 .navbar{
+    display: flex;
+    justify-content: space-between;
     padding: 10px 0;
 }
 .navbar ul{
@@ -17,4 +19,25 @@
     font-weight:400;
     color:#565673;
     padding: 0 10px;
+}
+.searchform{
+    display: flex;
+    margin:0 10px;
+}
+.searchicon{
+    height: 32px;
+    width: auto;
+    cursor: pointer;
+}
+.searchInput{
+    border: 0;
+    width: 0;
+    transition: width 0.1s ease-in;
+}
+.searchInput.active{
+    width: 150px;
+}
+
+.searchInput:focus{
+    outline: none;
 }
