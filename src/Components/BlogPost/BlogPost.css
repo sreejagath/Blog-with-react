@@ -1,4 +1,38 @@
 .blogPostContainer{
     width: 70%;
     background-color: #fff;
+}.blogHeader{
+    text-align: center;
+}
+.postTitle{
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 0;
+}
+.blogCategory{
+    display: block;
+    font-size: 14px;
+    padding: 10px 0;
+    font-weight: 400;
+}
+.postedby{
+    font-size: 15px;
+    font-style: italic;
+    padding: 10px 0;
+    display: block;
+}
+.imageContainer{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.imageContainer img{
+    max-width: 100%;
+    max-height: 100%;
+}.blogPostContainer p{
+    padding: 10px;
+    box-sizing: border-box;
 }
