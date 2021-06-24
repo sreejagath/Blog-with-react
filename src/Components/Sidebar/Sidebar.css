@@ -5,14 +5,12 @@
     text-transform: uppercase;
     font-size: 20px;
     text-align: center;
-    padding: 10px 0;
     box-sizing: border-box;
     letter-spacing: 2px;
-    color:#565673;
+    color:#333;
 }
 .profileImage{
     width: 100%;
-    padding: 20px;
     box-sizing: border-box;
 }
 .profileImage img{
@@ -21,9 +19,24 @@
     margin: 20px 0;
 }
 .bio{
-    font-size: 12px;
+    font-size: 14px;
     color: #565673;
     font-weight: 400;
-    padding: 20px;
     box-sizing: border-box;
+}
+.recentPost{
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+.recentPost h3{
+    color: #6c6c6c;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0%;
+}
+.recentPost span{
+    font-size: 10px;
+    font-weight: 400;
+    color:#6c6c66;
 }
