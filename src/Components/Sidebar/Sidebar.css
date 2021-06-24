@@ -24,6 +24,9 @@
     font-weight: 400;
     box-sizing: border-box;
 }
+.recentPosts{
+    padding: 20px 0;
+}
 .recentPost{
     border-bottom: 1px solid #eee;
     margin-bottom: 10px;
